@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CQRS.Application.Commands.AddStudent
+namespace Sample.Net.Application.Commands.AddStudent
 {
     public class AddStudentCommandHandler : IRequestHandler<AddStudentCommand>
     {

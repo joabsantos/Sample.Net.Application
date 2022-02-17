@@ -1,9 +1,9 @@
-﻿using CQRS.Application.Queries.GetStudents;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Sample.Net.Application.Queries.GetStudents;
 using System.Threading.Tasks;
 
-namespace CQRS.Controllers
+namespace Sample.Net.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

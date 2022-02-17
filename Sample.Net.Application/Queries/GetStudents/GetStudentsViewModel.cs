@@ -1,4 +1,4 @@
-﻿namespace CQRS.Application.Queries.GetStudents
+﻿namespace Sample.Net.Application.Queries.GetStudents
 {
     public class GetStudentsViewModel
     {

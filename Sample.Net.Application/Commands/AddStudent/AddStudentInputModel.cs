@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CQRS.Application.Commands.AddStudent
+namespace Sample.Net.Application.Commands.AddStudent
 {
     public class AddStudentInputModel
     {

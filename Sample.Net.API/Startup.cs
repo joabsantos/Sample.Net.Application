@@ -1,20 +1,13 @@
-using CQRS.Application.Commands.AddStudent;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Sample.Net.Application.Commands.AddStudent;
 
-namespace CQRS
+namespace Sample.Net.API
 {
     public class Startup
     {
@@ -32,7 +25,7 @@ namespace CQRS
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CQRS", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Sample.Net.Api", Version = "v1" });
             });
         }
 
